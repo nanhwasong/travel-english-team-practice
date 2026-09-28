@@ -28,11 +28,10 @@ AI가 생성한 여행영어 문장
 - audioUrl: 발음 음성 주소
 - createdAt: 생성 날짜
 
-## 4. progress
-문장별 학습 결과
-- 문서 ID: 자동 생성
-- userId: 학습한 사용자 uid
-- sentenceId: 학습한 문장 ID
+## 4. users/{userId}/progress
+사용자별 문장 학습 결과
+
+- 문서 ID: sentenceId
 - status: learning 또는 completed
 - correctCount: 맞힌 횟수
 - wrongCount: 틀린 횟수
